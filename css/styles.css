@@ -1,0 +1,37 @@
+body {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* основний колір тексту rgba(0, 0, 0, 0.8); */
+
+/* додатковий колір тесту   #000000; */
+
+/* білий колір  #FFFFFF; */
+
+/* колір акцент #3B85DF; */
+/* колір наведення #3B6ADF; */
+
+
+.list {
+    list-style: none;
+}
+
+
+
+/* menu */
+
+.menu .link {
+    color: #FFFFFF;
+    background-color: #3B85DF;
+
+}
+
+.menu .link:hover, 
+.menu .link:focus  {
+
+    background-color: #3B6ADF;
+}
+
+.section-title {
+    color:#000000;
+}
