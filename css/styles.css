@@ -1,30 +1,44 @@
-body {
-    color: rgba(0, 0, 0, 0.8);
-}
 
-/* основний колір тексту rgba(0, 0, 0, 0.8); */
 
-/* додатковий колір тесту   #000000; */
 
-/* білий колір  #FFFFFF; */
 
-/* колір акцент #3B85DF; */
+
+
 /* колір наведення #3B6ADF; */
 
+:root {
+    --primary-text-color: rgba(0, 0, 0, 0.8); /* основний колір тексту */
+    --title-text-color: #000000; /* колір тесту  */
+    --accent-color: #3B85DF; /* колір акцент */
+    --primary-white-color: #FFFFFF;    /* білий колір*/
+}
 
-.list {
+body {
+    color: var(--title-text-color);
+    font-family: Montserrat, sans-serif;
+
+}
+
+
+.item {
     list-style: none;
 }
 
 
 
+
 /* menu */
 .menu {
-    background-color: #3B85DF;
+    background-color: var(--accent-color);
+
 }
 
 .menu-nav__link {
-    color: #FFFFFF;
+    color: var(--primary-white-color);
+
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.2;
 
 }
 
@@ -35,5 +49,5 @@ body {
 }
 
 .section-title {
-    color:#000000;
+    color: var(--title-text-color);
 }
