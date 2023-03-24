@@ -19,17 +19,19 @@ body {
 
 
 /* menu */
-
-.navi__menu .link {
-    color: #FFFFFF;
+.menu {
     background-color: #3B85DF;
+}
+
+.menu-nav__link {
+    color: #FFFFFF;
 
 }
 
-.navi__menu .link:hover, 
-.navi__menu .link:focus  {
-
+.menu-nav__link:hover, 
+.menu-nav__link:focus  {
     background-color: #3B6ADF;
+    color: yellow;
 }
 
 .section-title {
