@@ -20,14 +20,14 @@ body {
 
 /* menu */
 
-.menu .link {
+.navi__menu .link {
     color: #FFFFFF;
     background-color: #3B85DF;
 
 }
 
-.menu .link:hover, 
-.menu .link:focus  {
+.navi__menu .link:hover, 
+.navi__menu .link:focus  {
 
     background-color: #3B6ADF;
 }
