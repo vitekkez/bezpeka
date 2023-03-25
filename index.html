@@ -14,7 +14,7 @@
   <body>
     <header>
       <nav class="navi">
-        <ul class="menu-nav">
+        <ul class="menu-nav list">
           <li class="menu-nav__item item">
             <a href="index.html" class="menu-nav__link link">головна</a>
           </li>
@@ -36,22 +36,28 @@
         </ul>
       </nav>
 
-      <a href>
-        <img src="./images/logo.png" alt="логотип компанії" />
+      <a href class="logo">
+        <img
+          src="./images/logo.png"
+          alt="логотип компанії"
+          class="logo__image"
+        />
       </a>
 
       <address>
-        <ul class="list">
-          <li>
-            <h3>Адреса</h3>
-            <p>
+        <ul class="adres list">
+          <li class="adres__item">
+            <h3 class="adres__title">Адреса</h3>
+            <p class="adres__text">
               м. Біла Церква <br />
               вул. Таращанська 2 офіс 41Ж
             </p>
           </li>
-          <li>
-            <h3>Телефон</h3>
-            <a href="tel:+380671112611" class="link">+38 (067) 111 26 11</a>
+          <li class="adres__item>
+            <h3 class="adres__title">Телефон</h3>
+            <a href="tel:+380671112611" class="adres__link link"
+              >+38 (067) 111 26 11</a
+            >
           </li>
         </ul>
       </address>
@@ -59,51 +65,52 @@
 
     <body>
       <section class="hero">
-        <h1 class="hero-title">відеоспостереження</h1>
+        <h1 class="hero__title">відеоспостереження</h1>
         <p>проектування монтаж продаж</p>
-        <a href="" alt="" class="link">подробиці</a>
+        <a href="" alt="" class="hero__link">подробиці</a>
       </section>
+
       <section class="section">
-        <h2 class="section-title">наші послуги</h2>
-        <ul class="list">
-          <li>
-            <a href="" class="link">
+        <h2 class="section__title">наші послуги</h2>
+        <ul class="services__list">
+          <li class="services__item">
+            <a href="" class="services__link">
               <img
                 src="https://www.bezpekacentr.com.ua/wp-content/themes/shabloner_441/files/svg/videocamera.svg"
                 width="250"
                 height="250"
               />
-              <h4>Проектування та встановлення систем відеоспостереження</h4>
+              <h4 class="services__title">Проектування та встановлення систем відеоспостереження</h4>
             </a>
           </li>
-          <li>
-            <a href="" class="link">
+          <li class="services__item">
+            <a href="" class="services__link">
               <img
                 src="https://www.bezpekacentr.com.ua/wp-content/themes/shabloner_441/files/svg/ohrana.svg"
                 width="250"
                 height="250"
               />
-              <h4>Проектування та встановлення охоронних сигналізацій</h4>
+              <h4 class="services__title">Проектування та встановлення охоронних сигналізацій</h4>
             </a>
           </li>
-          <li>
-            <a href="" class="link">
+          <li class="services__item">
+            <a href="" class="services__link">
               <img
                 src="https://www.bezpekacentr.com.ua/wp-content/themes/shabloner_441/files/svg/intercom.svg"
                 width="250"
                 height="250"
               />
-              <h4>Проектування та встановлення домофонних систем</h4>
+              <h4 class="services__title">Проектування та встановлення домофонних систем</h4>
             </a>
           </li>
-          <li>
-            <a href="" class="link">
+          <li class="services__item">
+            <a href="" class="services__link">
               <img
                 src="https://www.bezpekacentr.com.ua/wp-content/themes/shabloner_441/files/svg/lock.svg"
                 width="250"
                 height="250"
               />
-              <h4>Встановлення систем керування та контролю доступу</h4>
+              <h4 class="services__title">Встановлення систем керування та контролю доступу</h4>
             </a>
           </li>
         </ul>
